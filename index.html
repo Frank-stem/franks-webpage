@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frank's Personal Website</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f0f9ff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0f172a;
+            color: white;
+            padding: 25px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 75%;
+            border-radius: 12px;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: white;
+            padding: 12px;
+        }
+
+        button {
+            padding: 10px 18px;
+            background-color: #0284c7;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0369a1;
+        }
+
+        ul {
+            list-style-type: disc;
+            text-align: left;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hello, I'm Frank</h1>
+    <p>This is my simple personal webpage</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Student from STEM Fortitude LNCHS</p>
+    </div>
+
+    <div class="card">
+        <h2>My Interests</h2>
+        <ul>
+            <li>Drawing</li>
+            <li>Reading</li>
+            <li>Playing Online Games</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Get in Touch</h2>
+        <p>Email: frankexample@email.com</p>
+        <button onclick="showMessage()">Press Here</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Frank's Website | All Rights Reserved</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thanks for visiting Frank's website!");
+    }
+</script>
+
+</body>
+</html>
